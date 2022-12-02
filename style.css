@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    padding: 25px;
+    background-image: url(https://pro2-bar-s3-cdn-cf2.myportfolio.com/6c682fa170908759081d6021482ee35f/3c2f5684-277e-4175-a947-a429c7001b41_rw_1920.gif?h=60d6e0052ed70cd99d4bbbe42527bb91);
+    background-size: 100% 100%;
+    height: 250px;
+    transition: .6s;
+}
+
+div.logo:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    margin: 5%;
+    color: white;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+.cards{
+    margin: 3%;
+    float: left;
+    width: 350px;
+    transition: .3s;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.cards:hover{
+    background-color: white;
+    color: black;
+    animation: rotation 0.5s ease;
+}
+
+@keyframes rotation{
+    from{   
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+.cards img{
+    width: 100%;
+    height: 250px;
+}
+
+.bottomT{
+    padding: 15px;
+    text-align: center;
+}
